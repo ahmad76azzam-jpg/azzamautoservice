@@ -1,0 +1,152 @@
+/* ====== Container ====== */
+.navbar {
+  width: 100%;
+  background-color: #1E1E1E;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+/* Change input focus outline to Bootstrap 'danger' red */
+.form-control:focus {
+  border-color: #dc3545 !important;   /* Bootstrap danger red */
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+}
+
+form.d-flex {
+  list-style-position:s ;
+  align-items: center;
+  text-align: center;
+  margin-left: auto; /* push it to the far right */
+}
+
+/* Optional: fine-tune the input height to match button */
+form.d-flex .form-control {
+  height: 38px;
+  padding: 6px 12px;
+  font-size: 0.95rem;
+}
+
+/* Optional: match button height */
+form.d-flex .btn {
+  height: 38px;
+  font-size: 0.95rem;
+}
+.logo{
+  margin-left: 40px;
+  height: auto;
+  width: 150px;
+}
+
+/* Left side: logo + hiddenLinks (for mobile) */
+.navbar .leftSide {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar .leftSide img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Right side: desktop links + hamburger btn */
+.navbar .rightSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar .rightSide a,
+.navbar .hiddenLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 6px;
+}
+
+.navbar .rightSide a:hover,
+.navbar .hiddenLinks a:hover {
+  color: #cbd5e1;
+}
+
+/* Hamburger */
+.navbar .rightSide button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;            /* hidden on desktop */
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: #fff;
+}
+
+/* ====== Hidden links (mobile menu) ====== */
+.navbar .hiddenLinks {
+  display: none;
+}
+
+/* When open: show dropdown under navbar across full width */
+.navbar.is-open .hiddenLinks {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 64px;                /* equal to navbar min-height */
+  background: hsl(0, 75%, 39%);
+  display: grid;
+  gap: 10px;
+  padding: 12px 16px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+  animation: menuDrop .18s ease-out;
+}
+
+@keyframes menuDrop {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ====== Breakpoints ====== */
+
+/* Desktop ≥ 769px */
+@media (min-width: 769px) {
+  .navbar .rightSide a { display: inline-block; }
+  .navbar .rightSide button { display: none; }
+  .navbar .hiddenLinks { display: none !important; }
+}
+
+/* Mobile ≤ 768px */
+@media (max-width: 768px) {
+  .navbar { padding: 0 12px; min-height: 60px; }
+  .navbar.is-open .hiddenLinks { top: 60px; }
+
+  .navbar .rightSide a { display: none; }          /* hide desktop links */
+  .navbar .rightSide button { display: inline-flex; } /* show hamburger */
+}
+
+/* Small phones ≤ 380px */
+@media (max-width: 380px) {
+  .navbar .leftSide img { width: 48px; height: 48px; }
+}
+/* If you toggle id="open" on .leftSide */
+#open .hiddenLinks {
+  position: absolute;
+  left: 0; right: 0;
+  top: 64px;
+  background: hsl(0, 76%, 40%);
+  display: grid;
+  gap: 10px;
+  padding: 12px 16px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  animation: menuDrop .18s ease-out;
+}
