@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/azzamautoservice/static/css/main.d52ffb77.css",
-    "main.js": "/azzamautoservice/static/js/main.9902bb00.js",
+    "main.css": "/azzamautoservice/static/css/main.0e22231c.css",
+    "main.js": "/azzamautoservice/static/js/main.0efd7516.js",
     "static/js/787.28cb0dcd.chunk.js": "/azzamautoservice/static/js/787.28cb0dcd.chunk.js",
     "static/media/store.jpg": "/azzamautoservice/static/media/store.1336598a7a871f8d2664.jpg",
     "static/media/logo.png": "/azzamautoservice/static/media/logo.ff257bfb62c6d1d40994.png",
@@ -32,12 +32,12 @@
     "static/media/motul4.webp": "/azzamautoservice/static/media/motul4.0989ebd846e85aa90baa.webp",
     "static/media/lma10.jpg": "/azzamautoservice/static/media/lma10.610118c64a493183be47.jpg",
     "index.html": "/azzamautoservice/index.html",
-    "main.d52ffb77.css.map": "/azzamautoservice/static/css/main.d52ffb77.css.map",
-    "main.9902bb00.js.map": "/azzamautoservice/static/js/main.9902bb00.js.map",
+    "main.0e22231c.css.map": "/azzamautoservice/static/css/main.0e22231c.css.map",
+    "main.0efd7516.js.map": "/azzamautoservice/static/js/main.0efd7516.js.map",
     "787.28cb0dcd.chunk.js.map": "/azzamautoservice/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d52ffb77.css",
-    "static/js/main.9902bb00.js"
+    "static/css/main.0e22231c.css",
+    "static/js/main.0efd7516.js"
   ]
 }
