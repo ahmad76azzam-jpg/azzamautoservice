@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/azzamautoservice/static/css/main.34e2fd95.css",
+    "main.js": "/azzamautoservice/static/js/main.3435b4f0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/azzamautoservice/static/js/787.28cb0dcd.chunk.js",
+    "static/media/store.jpg": "/azzamautoservice/static/media/store.1336598a7a871f8d2664.jpg",
+    "static/media/logo.png": "/azzamautoservice/static/media/logo.ff257bfb62c6d1d40994.png",
+    "static/media/lm1.png": "/azzamautoservice/static/media/lm1.da5b079fcdff4c151083.png",
+    "static/media/lma9.png": "/azzamautoservice/static/media/lma9.f53887de3d2790ea9e32.png",
+    "static/media/lm2.png": "/azzamautoservice/static/media/lm2.fbca575b1f0f8f3ff274.png",
+    "static/media/lm3.png": "/azzamautoservice/static/media/lm3.753b52b93d551fda8fc2.png",
+    "static/media/lm4.png": "/azzamautoservice/static/media/lm4.1d0947e00444bc0c2a2d.png",
+    "static/media/lma8.png": "/azzamautoservice/static/media/lma8.336c5e783ca9884e26f5.png",
+    "static/media/lma13.png": "/azzamautoservice/static/media/lma13.af3547e4c9570fee16bf.png",
+    "static/media/fiammcarousel.jpg": "/azzamautoservice/static/media/fiammcarousel.4d2d40669eb006e70a38.jpg",
+    "static/media/lma12.png": "/azzamautoservice/static/media/lma12.dd3d0e885a76b9aa23bb.png",
+    "static/media/scshot.png": "/azzamautoservice/static/media/scshot.20822712550bb07151d4.png",
+    "static/media/lma1.png": "/azzamautoservice/static/media/lma1.09812bc500b1d58b902a.png",
+    "static/media/lma14.png": "/azzamautoservice/static/media/lma14.d8282547a32efb7afeda.png",
+    "static/media/lma11.png": "/azzamautoservice/static/media/lma11.e4d3983d89d6da577192.png",
+    "static/media/motulcarousel.jpg": "/azzamautoservice/static/media/motulcarousel.2a1cf695950994ed72f2.jpg",
+    "static/media/lmcarousel3.jpg": "/azzamautoservice/static/media/lmcarousel3.99d6ef3e3202afdbf5b0.jpg",
+    "static/media/motul2.webp": "/azzamautoservice/static/media/motul2.1ba18980aaaf811eae54.webp",
+    "static/media/motul3.webp": "/azzamautoservice/static/media/motul3.0b478c3d1ba40a8dd297.webp",
+    "static/media/motul1.webp": "/azzamautoservice/static/media/motul1.21b7b77b865f09bd54f6.webp",
+    "static/media/bohan1.png": "/azzamautoservice/static/media/bohan1.55aa6f3457b3e45f558c.png",
+    "static/media/lmlogo.png": "/azzamautoservice/static/media/lmlogo.af4d6b0736789bacf252.png",
+    "static/media/motul7.webp": "/azzamautoservice/static/media/motul7.7b7beb54d35f36d0152f.webp",
+    "static/media/motul5.webp": "/azzamautoservice/static/media/motul5.076e7b52eb81c3dbc2f7.webp",
+    "static/media/sctlogo.png": "/azzamautoservice/static/media/sctlogo.79c0badf39f43b74130e.png",
+    "static/media/motul6.webp": "/azzamautoservice/static/media/motul6.7f345c2997486e213294.webp",
+    "static/media/motul4.webp": "/azzamautoservice/static/media/motul4.0989ebd846e85aa90baa.webp",
+    "static/media/lma10.jpg": "/azzamautoservice/static/media/lma10.610118c64a493183be47.jpg",
+    "index.html": "/azzamautoservice/index.html",
+    "main.34e2fd95.css.map": "/azzamautoservice/static/css/main.34e2fd95.css.map",
+    "main.3435b4f0.js.map": "/azzamautoservice/static/js/main.3435b4f0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/azzamautoservice/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34e2fd95.css",
+    "static/js/main.3435b4f0.js"
+  ]
+}
